@@ -5,7 +5,7 @@ import json
 
 st.set_page_config(page_title="Job Posting Forensics", page_icon="logo.svg", layout="wide")
 
-st.title("🔍 Job Posting Forensics")
+st.title("Job Posting Forensics")
 st.markdown("*Decode what a company's hiring patterns really mean*")
 
 ANTHROPIC_API_KEY = st.secrets["ANTHROPIC_API_KEY"]
