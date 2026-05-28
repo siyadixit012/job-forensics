@@ -1,0 +1,31 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+<style>
+  @media (prefers-color-scheme: dark) {
+    .logo-bg { fill: #ffffff; }
+    .logo-bars { fill: #0f0f0f; }
+    .logo-text { fill: #ffffff; }
+    .logo-sub { fill: #888888; }
+    .logo-line { stroke: #ffffff; }
+  }
+  @media (prefers-color-scheme: light) {
+    .logo-bg { fill: #0f0f0f; }
+    .logo-bars { fill: #ffffff; }
+    .logo-text { fill: #0f0f0f; }
+    .logo-sub { fill: #888888; }
+    .logo-line { stroke: #0f0f0f; }
+  }
+</style>
+
+<rect x="0" y="10" width="70" height="70" rx="12" class="logo-bg"/>
+<rect x="12" y="34" width="6" height="24" rx="3" class="logo-bars"/>
+<rect x="23" y="26" width="6" height="40" rx="3" class="logo-bars"/>
+<rect x="34" y="18" width="6" height="56" rx="3" class="logo-bars"/>
+<rect x="45" y="30" width="6" height="32" rx="3" class="logo-bars"/>
+<rect x="56" y="38" width="6" height="16" rx="3" class="logo-bars"/>
+
+<text x="85" y="48" font-family="Georgia, serif" font-size="22" font-weight="400" letter-spacing="-0.5" class="logo-text">Job Posting</text>
+<text x="85" y="72" font-family="Georgia, serif" font-size="22" font-weight="400" letter-spacing="-0.5" class="logo-text">Forensics</text>
+
+<line x1="85" y1="80" x2="360" y2="80" stroke-width="0.5" class="logo-line"/>
+<text x="86" y="94" font-family="Georgia, serif" font-size="9" font-weight="400" letter-spacing="2" class="logo-sub">HIRING INTELLIGENCE</text>
+</svg>

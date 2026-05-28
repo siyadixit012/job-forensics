@@ -3,7 +3,7 @@ import anthropic
 import requests
 import json
 
-st.set_page_config(page_title="Job Posting Forensics", page_icon="🔍", layout="wide")
+st.set_page_config(page_title="Job Posting Forensics", page_icon="logo.svg", layout="wide")
 
 st.title("🔍 Job Posting Forensics")
 st.markdown("*Decode what a company's hiring patterns really mean*")
