@@ -8,9 +8,9 @@ st.set_page_config(page_title="Job Posting Forensics", page_icon="🔍", layout=
 st.title("🔍 Job Posting Forensics")
 st.markdown("*Decode what a company's hiring patterns really mean*")
 
-ANTHROPIC_API_KEY = "anthropic-api"
-ADZUNA_APP_ID = "adzuna-id"
-ADZUNA_APP_KEY = "adzuna-key"
+ANTHROPIC_API_KEY = st.secrets["ANTHROPIC_API_KEY"]
+ADZUNA_APP_ID = st.secrets["ADZUNA_APP_ID"]
+ADZUNA_APP_KEY = st.secrets["ADZUNA_APP_KEY"]
 
 def get_job_postings(company, role=None):
     url = "https://api.adzuna.com/v1/api/jobs/us/search/1"
