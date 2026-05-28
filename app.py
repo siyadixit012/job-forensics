@@ -5,8 +5,7 @@ import json
 
 st.set_page_config(page_title="Job Posting Forensics", page_icon="logo.svg", layout="wide")
 
-st.title("Job Posting Forensics")
-st.markdown("*Decode what a company's hiring patterns really mean*")
+st.image("logo.svg", width=400)
 
 ANTHROPIC_API_KEY = st.secrets["ANTHROPIC_API_KEY"]
 ADZUNA_APP_ID = st.secrets["ADZUNA_APP_ID"]
